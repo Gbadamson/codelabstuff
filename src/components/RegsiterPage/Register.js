@@ -207,11 +207,7 @@ const StudentReg = () => {
         </div>
       </center>
       <center>
-        <Button
-          onClick={() => {
-            StudentRegistration(), till.push("/det");
-          }}
-        >
+        <Button onClick={(StudentRegistration, till.push("/det"))}>
           Submit
         </Button>
       </center>
